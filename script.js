@@ -41,7 +41,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // WhatsApp function
 function openWhatsApp() {
-    const phoneNumber = '5492611234567'; // Reemplaza con el número real
+    const phoneNumber = '5492615577800'; // Reemplaza con el número real
     const message = encodeURIComponent('¡Hola! Me interesa reservar un turno en Arena Padel Mendoza. ¿Podrían ayudarme con la disponibilidad?');
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappURL, '_blank');
