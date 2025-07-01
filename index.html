@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena Padel Mendoza - Club de Pádel Premium</title>
+    <meta name="description" content="Club de pádel premium en Mendoza. Canchas profesionales, academia y servicios de primera calidad.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="logo.png" alt="" srcset="" style="width: 150px;">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#academia" class="nav-link">Academia</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/arenapadelmendoza" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/ArenaPadelMendoza/" class="social-link"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Vive la Pasión del <span>Pádel</span></h1>
+            <p class="hero-subtitle">Canchas profesionales, ambiente premium y la mejor experiencia de pádel en Mendoza</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary" onclick="openWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                    Reservar Turno
+                </a>
+                <a href="#servicios" class="btn btn-secondary">Conocer Más</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-bg"></div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios</h2>
+                <p>Todo lo que necesitas para disfrutar del mejor pádel</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tennis-ball"></i>
+                    </div>
+                    <h3>Canchas Premium</h3>
+                    <p>8 canchas profesionales de última generación y iluminación LED</p>
+                    <ul class="service-features">
+                        <li>Iluminación LED profesional</li>
+                        <li>Vestuarios equipados</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Clases Profesionales</h3>
+                    <p>Instructores certificados para todos los niveles, desde principiantes hasta avanzados</p>
+                    <ul class="service-features">
+                        <li>Profesores certificados</li>
+                        <li>Clases grupales e individuales</li>
+                        <li>Todos los niveles</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Torneos & Eventos</h3>
+                    <p>Organizamos torneos regulares y eventos especiales para toda la comunidad</p>
+                    <ul class="service-features">
+                        <li>Torneos mensuales</li>
+                        <li>Eventos corporativos</li>
+                        <li>Competencias por categorías</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Preparación Física</h3>
+                    <p>Área de entrenamiento físico especializada para mejorar tu rendimiento en la cancha</p>
+                    <ul class="service-features">
+                        <li>Gimnasio especializado</li>
+                        <li>Entrenamiento funcional</li>
+                        <li>Planes personalizados</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Pro Shop</h3>
+                    <p>Tienda especializada con las mejores marcas de equipamiento y accesorios</p>
+                    <ul class="service-features">
+                        <li>Paletas profesionales</li>
+                        <li>Indumentaria deportiva</li>
+                        <li>Accesorios premium</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Cafetería & Lounge</h3>
+                    <p>Espacio de relajación con cafetería y área social para después del juego</p>
+                    <ul class="service-features">
+                        <li>Cafetería premium</li>
+                        <li>Área de descanso</li>
+                        <li>Snacks saludables</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academia Section -->
+    <section id="academia" class="academy">
+        <div class="container">
+            <div class="academy-content">
+                <div class="academy-text">
+                    <div class="section-header">
+                        <h2>Academia Arena Padel</h2>
+                        <p>Formamos jugadores de excelencia</p>
+                    </div>
+                    <div class="academy-description">
+                        <p>Nuestra academia cuenta con los mejores profesionales del pádel en Mendoza. Ofrecemos un programa integral de formación que abarca desde los fundamentos básicos hasta técnicas avanzadas de competición.</p>
+                        
+                        <div class="academy-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Metodología Profesional</h4>
+                                    <p>Sistema de enseñanza progresivo adaptado a cada nivel</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Instructores Certificados</h4>
+                                    <p>Profesores con certificación nacional e internacional</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Grupos Reducidos</h4>
+                                    <p>Máximo 4 alumnos por clase para atención personalizada</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4>Seguimiento Individual</h4>
+                                    <p>Evaluación continua y plan de mejora personalizado</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="academy-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-users"></i>
+                        <p>Academia Profesional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contacto" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para Jugar?</h2>
+                <p>Reserva tu turno ahora y vive la mejor experiencia de pádel en Mendoza</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/5492615577800" class="btn btn-primary btn-large" onclick="openWhatsApp()">
+                        <i class="fab fa-whatsapp"></i>
+                        Reservar por WhatsApp
+                    </a>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +54 261 15-557-7800</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Pedro del Castillo 3050, Villa Nueva de Guaymallén, Argentina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Arena Padel Mendoza</h3>
+                    <p>El mejor club de pádel de Mendoza. Canchas profesionales, academia de excelencia y servicios premium.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/arenapadelmendoza" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ArenaPadelMendoza/" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#servicios">Canchas Premium</a></li>
+                        <li><a href="#academia">Academia</a></li>
+                        <li><a href="#servicios">Torneos</a></li>
+                        <li><a href="#servicios">Pro Shop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +54 261 15-557-7800</li>
+                        <li><i class="fas fa-envelope"></i> arenapadelmdz@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Pedro del Castillo 3050, Villa Nueva de Guaymallén, Argentina</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <ul>
+                        <li>Lunes a Lunes: 7:00 - 23:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Arena Padel Mendoza. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5492615577800" class="whatsapp-float" onclick="openWhatsApp()" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
